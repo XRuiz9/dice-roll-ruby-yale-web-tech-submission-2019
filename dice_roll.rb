@@ -4,5 +4,5 @@
 
 def roll
   dice = (1..6)
-  dice.random
+  rand(dice)
 end
